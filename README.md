@@ -16,6 +16,7 @@ Run application using below steps
 2. run the main application
 
 use following api sequentially
+
 http://localhost:8080/
 Load landing page of an application
 
