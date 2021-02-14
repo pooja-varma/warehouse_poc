@@ -1,0 +1,15 @@
+com/warehouse/entities/Article.class
+com/warehouse/model/AvailableProduct.class
+com/warehouse/repository/ProductRepository.class
+com/warehouse/WarehouseApplication.class
+com/warehouse/controller/WarehouseController.class
+com/warehouse/repository/ProductArticleRepository.class
+com/warehouse/service/WarehouseServiceImpl.class
+com/warehouse/entities/ProductArticle.class
+com/warehouse/service/WarehouseService.class
+com/warehouse/model/ContainArticle.class
+com/warehouse/model/Product.class
+com/warehouse/entities/Product.class
+com/warehouse/model/ApiError.class
+com/warehouse/repository/ArticleRepository.class
+com/warehouse/model/Article.class

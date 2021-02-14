@@ -1,0 +1,15 @@
+/Users/varmapooja/Downloads/warehouse_poca/src/main/java/com/warehouse/model/Article.java
+/Users/varmapooja/Downloads/warehouse_poca/src/main/java/com/warehouse/model/AvailableProduct.java
+/Users/varmapooja/Downloads/warehouse_poca/src/main/java/com/warehouse/model/ApiError.java
+/Users/varmapooja/Downloads/warehouse_poca/src/main/java/com/warehouse/model/Product.java
+/Users/varmapooja/Downloads/warehouse_poca/src/main/java/com/warehouse/service/WarehouseService.java
+/Users/varmapooja/Downloads/warehouse_poca/src/main/java/com/warehouse/service/WarehouseServiceImpl.java
+/Users/varmapooja/Downloads/warehouse_poca/src/main/java/com/warehouse/entities/ProductArticle.java
+/Users/varmapooja/Downloads/warehouse_poca/src/main/java/com/warehouse/entities/Article.java
+/Users/varmapooja/Downloads/warehouse_poca/src/main/java/com/warehouse/controller/WarehouseController.java
+/Users/varmapooja/Downloads/warehouse_poca/src/main/java/com/warehouse/repository/ArticleRepository.java
+/Users/varmapooja/Downloads/warehouse_poca/src/main/java/com/warehouse/repository/ProductRepository.java
+/Users/varmapooja/Downloads/warehouse_poca/src/main/java/com/warehouse/model/ContainArticle.java
+/Users/varmapooja/Downloads/warehouse_poca/src/main/java/com/warehouse/entities/Product.java
+/Users/varmapooja/Downloads/warehouse_poca/src/main/java/com/warehouse/repository/ProductArticleRepository.java
+/Users/varmapooja/Downloads/warehouse_poca/src/main/java/com/warehouse/WarehouseApplication.java

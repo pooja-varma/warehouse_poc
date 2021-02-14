@@ -28,7 +28,7 @@ public class ProductRepositoryTest {
     entityManager.flush();
 
     // when
-    Product found = productRepository.findAllByProductID(chair.getProduct_id());
+    Product found = productRepository.findByProductID(chair.getProduct_id());
 
     // then
     assertThat(found.getProduct_name())

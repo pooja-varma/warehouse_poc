@@ -13,6 +13,6 @@ public interface ProductRepository extends JpaRepository<Product,Integer> {
   List<Product> findAll();
 
   @Query(value= "Select a from Product a where a.product_id = :product_id")
-  Product findAllByProductID(@Param("product_id") Integer product_id);
+  Product findByProductID(@Param("product_id") Integer product_id);
 
 }

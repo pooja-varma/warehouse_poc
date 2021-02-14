@@ -47,6 +47,7 @@ public class WarehouseServiceImpl implements WarehouseService {
   @Autowired
   ProductArticleRepository productArticleRepository;
 
+  /* Return List of all products*/
   @Override
   public List<Product> getAllProduct() {
     List<Product> productList = new ArrayList<>();
@@ -78,6 +79,7 @@ public class WarehouseServiceImpl implements WarehouseService {
     return productList;
   }
 
+  /*Return List of all available products in stock*/
   @Override
   public List<AvailableProduct> getAvailableProducts() {
     List<com.warehouse.entities.Article> inventory = articleRepository.findAll();
@@ -129,11 +131,13 @@ public class WarehouseServiceImpl implements WarehouseService {
     return availableProducts;
   }
 
+
+/*Sale and specified product using Id and update inventory */
   @Override
   public String saleProduct(Integer id) {
     String str=null;
     com.warehouse.entities.Product product = new com.warehouse.entities.Product();
-    product = productRepository.findAllByProductID(id);
+    product = productRepository.findByProductID(id);
     if(product!=null) {
       List<com.warehouse.entities.ProductArticle> productArticles = new ArrayList<>();
       productArticles = productArticleRepository.findAllByProductID(id);
